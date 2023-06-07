@@ -1,0 +1,89 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "nextTab"
+            },
+            "keys": "ctrl+tab"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{c564d48f-db3b-4d85-ba06-7b7c99925342}",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "cursorShape": "vintage"
+        },
+        "list": 
+        [
+            {
+                "backgroundImage": "ms-appdata:///roaming/river1041uuu.gif",
+                "backgroundImageOpacity": 0.2,
+                "closeOnExit": "graceful",
+                "colorScheme": "Calamity",
+                "commandline": "ubuntu2204",
+                "guid": "{c564d48f-db3b-4d85-ba06-7b7c99925342}",
+                "icon": "ms-appdata:///roaming/bash.ico",
+                "name": "Ubuntu 22.04"
+            },
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#2F2833",
+            "black": "#2F2833",
+            "blue": "#3B79C7",
+            "brightBlack": "#7E6C88",
+            "brightBlue": "#3B79C7",
+            "brightCyan": "#74D3DE",
+            "brightGreen": "#A5F69C",
+            "brightPurple": "#F92672",
+            "brightRed": "#FC644D",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E9D7A5",
+            "cursorColor": "#D5CED9",
+            "cyan": "#74D3DE",
+            "foreground": "#D5CED9",
+            "green": "#A5F69C",
+            "name": "Calamity",
+            "purple": "#F92672",
+            "red": "#FC644D",
+            "selectionBackground": "#7E6C88",
+            "white": "#D5CED9",
+            "yellow": "#E9D7A5"
+        },
+    ],
+    "themes": []
+}
